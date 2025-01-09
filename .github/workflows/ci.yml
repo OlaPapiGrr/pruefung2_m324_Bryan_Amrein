@@ -28,3 +28,11 @@ jobs:
 
       - name: Run tests
         run: npm test
+  virus-scan:
+      runs-on: ubuntu-latest
+      steps:       
+        - name: Checkout code
+          uses: actions/checkout@v4
+
+        - name: Virenscan ausführen
+          uses: hugoalh/scan-virus-ghaction@latest
