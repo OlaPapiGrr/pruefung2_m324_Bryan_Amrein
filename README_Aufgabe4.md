@@ -1,0 +1,1 @@
+- Fügt einen Hello-World kommentar bei einem Pull-Request hinzu.

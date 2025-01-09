@@ -5,9 +5,11 @@ export const sum = (a, b) => {
 };
 
 const word = generate();
-const word2 = generate();
+//const word2 = generate();
 console.log(
   `Hello!!! 
   The ${chalk.redBright('random word')} of today is: ${chalk.bgRed(word)}. 
   The word length is ${sum(word.length, 0)}.`,
 );
+const lintError = 'test';
+console.log(lintError);
